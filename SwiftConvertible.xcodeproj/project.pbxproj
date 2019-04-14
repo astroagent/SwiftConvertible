@@ -10,6 +10,8 @@
 		4193C32F2262C8C4000850EE /* SwiftConvertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4193C3252262C8C4000850EE /* SwiftConvertible.framework */; };
 		4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */; };
 		4193C3362262C8C4000850EE /* SwiftConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = 4193C3282262C8C4000850EE /* SwiftConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4193C3422262CA77000850EE /* StringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3412262CA77000850EE /* StringConvertible.swift */; };
+		4193C3452262CBF7000850EE /* String+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3442262CBF7000850EE /* String+Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		4193C32E2262C8C4000850EE /* SwiftConvertibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConvertibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConvertibleTests.swift; sourceTree = "<group>"; };
 		4193C3352262C8C4000850EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4193C3412262CA77000850EE /* StringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConvertible.swift; sourceTree = "<group>"; };
+		4193C3442262CBF7000850EE /* String+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4193C3282262C8C4000850EE /* SwiftConvertible.h */,
+				4193C33F2262C9C0000850EE /* Convertibles */,
 				4193C3292262C8C4000850EE /* Info.plist */,
 			);
 			path = SwiftConvertible;
@@ -81,9 +86,34 @@
 			isa = PBXGroup;
 			children = (
 				4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */,
+				4193C3402262C9C9000850EE /* Convertibles */,
 				4193C3352262C8C4000850EE /* Info.plist */,
 			);
 			path = SwiftConvertibleTests;
+			sourceTree = "<group>";
+		};
+		4193C33F2262C9C0000850EE /* Convertibles */ = {
+			isa = PBXGroup;
+			children = (
+				4193C3412262CA77000850EE /* StringConvertible.swift */,
+			);
+			path = Convertibles;
+			sourceTree = "<group>";
+		};
+		4193C3402262C9C9000850EE /* Convertibles */ = {
+			isa = PBXGroup;
+			children = (
+				4193C3432262CB95000850EE /* StringConvertible */,
+			);
+			path = Convertibles;
+			sourceTree = "<group>";
+		};
+		4193C3432262CB95000850EE /* StringConvertible */ = {
+			isa = PBXGroup;
+			children = (
+				4193C3442262CBF7000850EE /* String+Int.swift */,
+			);
+			path = StringConvertible;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +178,7 @@
 				TargetAttributes = {
 					4193C3242262C8C4000850EE = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					4193C32D2262C8C4000850EE = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4193C3422262CA77000850EE /* StringConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
+				4193C3452262CBF7000850EE /* String+Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +374,7 @@
 		4193C33A2262C8C4000850EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.astroagent.SwiftConvertible;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +400,7 @@
 		4193C33B2262C8C4000850EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +425,7 @@
 		4193C33D2262C8C4000850EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftConvertibleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +443,7 @@
 		4193C33E2262C8C4000850EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftConvertibleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
