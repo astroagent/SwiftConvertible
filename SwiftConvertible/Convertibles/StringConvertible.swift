@@ -33,4 +33,8 @@ extension LosslessStringConvertible where Self: StringConvertible {
     }
 }
 extension Int: StringConvertible {}
+extension UInt: StringConvertible {}
 extension UInt8: StringConvertible {}
+extension UInt16: StringConvertible {}
+extension UInt32: StringConvertible {}
+extension UInt64: StringConvertible {}

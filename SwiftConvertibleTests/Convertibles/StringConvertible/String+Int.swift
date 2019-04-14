@@ -1,5 +1,5 @@
 //
-//  String+LosslessStringConvertible.swift
+//  String+Int.swift
 //  SwiftConvertibleTests
 //
 //  Created by 橋本 龍 on 2019/04/14.

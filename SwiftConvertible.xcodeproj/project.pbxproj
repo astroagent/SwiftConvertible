@@ -13,6 +13,10 @@
 		4193C3422262CA77000850EE /* StringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3412262CA77000850EE /* StringConvertible.swift */; };
 		4193C3452262CBF7000850EE /* String+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3442262CBF7000850EE /* String+Int.swift */; };
 		4193C3472262CF61000850EE /* String+UInt8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3462262CF61000850EE /* String+UInt8.swift */; };
+		4193C34A2262D17D000850EE /* String+UInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3492262D17C000850EE /* String+UInt.swift */; };
+		4193C34C2262D5AA000850EE /* String+UInt16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34B2262D5AA000850EE /* String+UInt16.swift */; };
+		4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34D2262D5E2000850EE /* String+UInt32.swift */; };
+		4193C3502262D605000850EE /* String+Uint64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34F2262D605000850EE /* String+Uint64.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		4193C3412262CA77000850EE /* StringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConvertible.swift; sourceTree = "<group>"; };
 		4193C3442262CBF7000850EE /* String+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int.swift"; sourceTree = "<group>"; };
 		4193C3462262CF61000850EE /* String+UInt8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt8.swift"; sourceTree = "<group>"; };
+		4193C3492262D17C000850EE /* String+UInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt.swift"; sourceTree = "<group>"; };
+		4193C34B2262D5AA000850EE /* String+UInt16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt16.swift"; sourceTree = "<group>"; };
+		4193C34D2262D5E2000850EE /* String+UInt32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt32.swift"; sourceTree = "<group>"; };
+		4193C34F2262D605000850EE /* String+Uint64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Uint64.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				4193C3442262CBF7000850EE /* String+Int.swift */,
+				4193C3492262D17C000850EE /* String+UInt.swift */,
 				4193C3462262CF61000850EE /* String+UInt8.swift */,
+				4193C34B2262D5AA000850EE /* String+UInt16.swift */,
+				4193C34D2262D5E2000850EE /* String+UInt32.swift */,
+				4193C34F2262D605000850EE /* String+Uint64.swift */,
 			);
 			path = StringConvertible;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4193C34C2262D5AA000850EE /* String+UInt16.swift in Sources */,
+				4193C3502262D605000850EE /* String+Uint64.swift in Sources */,
 				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
 				4193C3452262CBF7000850EE /* String+Int.swift in Sources */,
+				4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */,
+				4193C34A2262D17D000850EE /* String+UInt.swift in Sources */,
 				4193C3472262CF61000850EE /* String+UInt8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
