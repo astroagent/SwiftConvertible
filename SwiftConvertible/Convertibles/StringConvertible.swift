@@ -33,8 +33,20 @@ extension LosslessStringConvertible where Self: StringConvertible {
     }
 }
 extension Int: StringConvertible {}
+extension Int8: StringConvertible {}
+extension Int16: StringConvertible {}
+extension Int32: StringConvertible {}
+extension Int64: StringConvertible {}
 extension UInt: StringConvertible {}
 extension UInt8: StringConvertible {}
 extension UInt16: StringConvertible {}
 extension UInt32: StringConvertible {}
 extension UInt64: StringConvertible {}
+extension Float: StringConvertible {}
+extension Double: StringConvertible {}
+
+extension CGFloat: StringConvertible {
+    public func toString() -> String {
+        return String(Float(self))
+    }
+}

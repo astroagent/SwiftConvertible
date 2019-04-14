@@ -17,6 +17,13 @@
 		4193C34C2262D5AA000850EE /* String+UInt16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34B2262D5AA000850EE /* String+UInt16.swift */; };
 		4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34D2262D5E2000850EE /* String+UInt32.swift */; };
 		4193C3502262D605000850EE /* String+Uint64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C34F2262D605000850EE /* String+Uint64.swift */; };
+		4193C3522262D861000850EE /* String+Int8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3512262D861000850EE /* String+Int8.swift */; };
+		4193C3542262D86A000850EE /* String+Int16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3532262D86A000850EE /* String+Int16.swift */; };
+		4193C3562262D875000850EE /* String+Int32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3552262D875000850EE /* String+Int32.swift */; };
+		4193C3582262D88B000850EE /* String+Int64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3572262D88B000850EE /* String+Int64.swift */; };
+		4193C35A2262D9D2000850EE /* String+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3592262D9D2000850EE /* String+Float.swift */; };
+		4193C35C2262DB52000850EE /* String+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C35B2262DB52000850EE /* String+Double.swift */; };
+		4193C35E2262DD1E000850EE /* String+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C35D2262DD1E000850EE /* String+CGFloat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		4193C34B2262D5AA000850EE /* String+UInt16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt16.swift"; sourceTree = "<group>"; };
 		4193C34D2262D5E2000850EE /* String+UInt32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UInt32.swift"; sourceTree = "<group>"; };
 		4193C34F2262D605000850EE /* String+Uint64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Uint64.swift"; sourceTree = "<group>"; };
+		4193C3512262D861000850EE /* String+Int8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int8.swift"; sourceTree = "<group>"; };
+		4193C3532262D86A000850EE /* String+Int16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int16.swift"; sourceTree = "<group>"; };
+		4193C3552262D875000850EE /* String+Int32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int32.swift"; sourceTree = "<group>"; };
+		4193C3572262D88B000850EE /* String+Int64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int64.swift"; sourceTree = "<group>"; };
+		4193C3592262D9D2000850EE /* String+Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Float.swift"; sourceTree = "<group>"; };
+		4193C35B2262DB52000850EE /* String+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Double.swift"; sourceTree = "<group>"; };
+		4193C35D2262DD1E000850EE /* String+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CGFloat.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +136,18 @@
 			isa = PBXGroup;
 			children = (
 				4193C3442262CBF7000850EE /* String+Int.swift */,
+				4193C3512262D861000850EE /* String+Int8.swift */,
+				4193C3532262D86A000850EE /* String+Int16.swift */,
+				4193C3552262D875000850EE /* String+Int32.swift */,
+				4193C3572262D88B000850EE /* String+Int64.swift */,
 				4193C3492262D17C000850EE /* String+UInt.swift */,
 				4193C3462262CF61000850EE /* String+UInt8.swift */,
 				4193C34B2262D5AA000850EE /* String+UInt16.swift */,
 				4193C34D2262D5E2000850EE /* String+UInt32.swift */,
 				4193C34F2262D605000850EE /* String+Uint64.swift */,
+				4193C3592262D9D2000850EE /* String+Float.swift */,
+				4193C35B2262DB52000850EE /* String+Double.swift */,
+				4193C35D2262DD1E000850EE /* String+CGFloat.swift */,
 			);
 			path = StringConvertible;
 			sourceTree = "<group>";
@@ -271,10 +292,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4193C34C2262D5AA000850EE /* String+UInt16.swift in Sources */,
+				4193C3522262D861000850EE /* String+Int8.swift in Sources */,
 				4193C3502262D605000850EE /* String+Uint64.swift in Sources */,
 				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
+				4193C3542262D86A000850EE /* String+Int16.swift in Sources */,
+				4193C35A2262D9D2000850EE /* String+Float.swift in Sources */,
+				4193C3562262D875000850EE /* String+Int32.swift in Sources */,
 				4193C3452262CBF7000850EE /* String+Int.swift in Sources */,
+				4193C3582262D88B000850EE /* String+Int64.swift in Sources */,
 				4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */,
+				4193C35C2262DB52000850EE /* String+Double.swift in Sources */,
+				4193C35E2262DD1E000850EE /* String+CGFloat.swift in Sources */,
 				4193C34A2262D17D000850EE /* String+UInt.swift in Sources */,
 				4193C3472262CF61000850EE /* String+UInt8.swift in Sources */,
 			);
