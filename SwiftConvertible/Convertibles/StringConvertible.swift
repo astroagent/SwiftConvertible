@@ -50,3 +50,14 @@ extension CGFloat: StringConvertible {
         return String(Float(self))
     }
 }
+
+extension Date: StringConvertible {
+    public func toString() -> String {
+        return ISO8601DateFormatter().string(from: self)
+    }
+    public func toString(format: String) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        return formatter.string(from: self)
+    }
+}

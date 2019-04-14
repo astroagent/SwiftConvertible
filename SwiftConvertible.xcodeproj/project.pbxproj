@@ -24,6 +24,7 @@
 		4193C35A2262D9D2000850EE /* String+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3592262D9D2000850EE /* String+Float.swift */; };
 		4193C35C2262DB52000850EE /* String+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C35B2262DB52000850EE /* String+Double.swift */; };
 		4193C35E2262DD1E000850EE /* String+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C35D2262DD1E000850EE /* String+CGFloat.swift */; };
+		4193C3602262DF97000850EE /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C35F2262DF97000850EE /* String+Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4193C3592262D9D2000850EE /* String+Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Float.swift"; sourceTree = "<group>"; };
 		4193C35B2262DB52000850EE /* String+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Double.swift"; sourceTree = "<group>"; };
 		4193C35D2262DD1E000850EE /* String+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CGFloat.swift"; sourceTree = "<group>"; };
+		4193C35F2262DF97000850EE /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				4193C3592262D9D2000850EE /* String+Float.swift */,
 				4193C35B2262DB52000850EE /* String+Double.swift */,
 				4193C35D2262DD1E000850EE /* String+CGFloat.swift */,
+				4193C35F2262DF97000850EE /* String+Date.swift */,
 			);
 			path = StringConvertible;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				4193C3452262CBF7000850EE /* String+Int.swift in Sources */,
 				4193C3582262D88B000850EE /* String+Int64.swift in Sources */,
 				4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */,
+				4193C3602262DF97000850EE /* String+Date.swift in Sources */,
 				4193C35C2262DB52000850EE /* String+Double.swift in Sources */,
 				4193C35E2262DD1E000850EE /* String+CGFloat.swift in Sources */,
 				4193C34A2262D17D000850EE /* String+UInt.swift in Sources */,
