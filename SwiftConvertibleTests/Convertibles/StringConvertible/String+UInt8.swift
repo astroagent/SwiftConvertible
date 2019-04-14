@@ -9,7 +9,7 @@
 import XCTest
 @testable import SwiftConvertible
 
-class String_UInt8: XCTestCase {
+class StringFromUInt8: XCTestCase {
 
     // MARK: - 正常系
 
@@ -24,6 +24,5 @@ class String_UInt8: XCTestCase {
         let int: UInt8 = 0
         XCTAssertEqual(int.toString(), "0")
     }
-
 
 }

@@ -9,7 +9,7 @@
 import XCTest
 @testable import SwiftConvertible
 
-class String_Int: XCTestCase {
+class StringFromInt: XCTestCase {
 
     // MARK: - 正常系
 
