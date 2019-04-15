@@ -61,3 +61,9 @@ extension Date: StringConvertible {
         return formatter.string(from: self)
     }
 }
+
+extension URL: StringConvertible {
+    public func toString() -> String {
+        return self.absoluteString
+    }
+}

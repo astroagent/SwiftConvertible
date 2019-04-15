@@ -34,6 +34,7 @@
 		41D789D3226429BF008243B1 /* Bool+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789D2226429BF008243B1 /* Bool+Int.swift */; };
 		41D789D522643BA2008243B1 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789D422643BA2008243B1 /* URLConvertible.swift */; };
 		41D789D822643C22008243B1 /* URL+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789D722643C22008243B1 /* URL+String.swift */; };
+		41D789DA22644EBC008243B1 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789D922644EBC008243B1 /* String+URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		41D789D2226429BF008243B1 /* Bool+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Int.swift"; sourceTree = "<group>"; };
 		41D789D422643BA2008243B1 /* URLConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
 		41D789D722643C22008243B1 /* URL+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+String.swift"; sourceTree = "<group>"; };
+		41D789D922644EBC008243B1 /* String+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				4193C35B2262DB52000850EE /* String+Double.swift */,
 				4193C35D2262DD1E000850EE /* String+CGFloat.swift */,
 				4193C35F2262DF97000850EE /* String+Date.swift */,
+				41D789D922644EBC008243B1 /* String+URL.swift */,
 			);
 			path = StringConvertible;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				4193C3502262D605000850EE /* String+Uint64.swift in Sources */,
 				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
 				41D789D822643C22008243B1 /* URL+String.swift in Sources */,
+				41D789DA22644EBC008243B1 /* String+URL.swift in Sources */,
 				4193C3542262D86A000850EE /* String+Int16.swift in Sources */,
 				41D789D3226429BF008243B1 /* Bool+Int.swift in Sources */,
 				4193C35A2262D9D2000850EE /* String+Float.swift in Sources */,

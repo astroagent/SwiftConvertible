@@ -14,22 +14,24 @@ class URLFromString: XCTestCase {
     // MARK: - 正常系
 
     func testHTTPURLConvertible() {
-        let string: String = "https://google.com"
+        let string: String = "https://hashimotoryoh@localhost:8080/index.html?foo=bar&hoge=fuga"
         XCTAssertNoThrow(try string.toURL()) { url in
-            XCTAssertEqual(url.absoluteString, string)
+            XCTAssertEqual(url, URL(string: "https://hashimotoryoh@localhost:8080/index.html?foo=bar&hoge=fuga"))
+            XCTAssertEqual(url.scheme, "https")
+            XCTAssertEqual(url.host, "localhost")
+            XCTAssertEqual(url.user, "hashimotoryoh")
+            XCTAssertEqual(url.port, 8080)
+            XCTAssertEqual(url.lastPathComponent, "index.html")
+            XCTAssertEqual(url.query, "foo=bar&hoge=fuga")
         }
         XCTAssertNotNil(string.asURL()) { url in
             XCTAssertEqual(url.absoluteString, string)
-        }
-    }
-
-    func testFileURLConvertible() {
-        let string: String = "file://Users/Shared/foo.txt"
-        XCTAssertNoThrow(try string.toURL()) { url in
-            XCTAssertEqual(url.absoluteString, string)
-        }
-        XCTAssertNotNil(string.asURL()) { url in
-            XCTAssertEqual(url.absoluteString, string)
+            XCTAssertEqual(url.scheme, "https")
+            XCTAssertEqual(url.host, "localhost")
+            XCTAssertEqual(url.user, "hashimotoryoh")
+            XCTAssertEqual(url.port, 8080)
+            XCTAssertEqual(url.lastPathComponent, "index.html")
+            XCTAssertEqual(url.query, "foo=bar&hoge=fuga")
         }
     }
 
