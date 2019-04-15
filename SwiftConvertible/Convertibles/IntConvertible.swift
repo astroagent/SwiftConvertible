@@ -35,3 +35,9 @@ extension String: IntConvertible {
         return int
     }
 }
+
+extension Bool: IntConvertible {
+    public func toInt() -> Int {
+        return self ? 1 : 0
+    }
+}
