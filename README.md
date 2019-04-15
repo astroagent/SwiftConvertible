@@ -1,7 +1,6 @@
 # SwiftConvertible
 
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/Alamofire.svg?style=flat)](https://alamofire.github.io/Alamofire)
 
 SwiftConvertible is a light converter library written in Swift.
 
@@ -51,7 +50,7 @@ github "astroagent/SwiftConvertible" ~> 0.2.0
 
 ### Manually
 
-If you prefer not to use any of the aforementioned dependency managers, you can integrate Alamofire into your project manually.
+If you prefer not to use any of the aforementioned dependency managers, you can integrate SwiftConvertible into your project manually.
 
 #### Embedded Framework
 

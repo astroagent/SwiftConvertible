@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4193C32F2262C8C4000850EE /* SwiftConvertible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4193C3252262C8C4000850EE /* SwiftConvertible.framework */; };
-		4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */; };
 		4193C3362262C8C4000850EE /* SwiftConvertible.h in Headers */ = {isa = PBXBuildFile; fileRef = 4193C3282262C8C4000850EE /* SwiftConvertible.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4193C3422262CA77000850EE /* StringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3412262CA77000850EE /* StringConvertible.swift */; };
 		4193C3452262CBF7000850EE /* String+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193C3442262CBF7000850EE /* String+Int.swift */; };
@@ -54,7 +53,6 @@
 		4193C3282262C8C4000850EE /* SwiftConvertible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftConvertible.h; sourceTree = "<group>"; };
 		4193C3292262C8C4000850EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4193C32E2262C8C4000850EE /* SwiftConvertibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConvertibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConvertibleTests.swift; sourceTree = "<group>"; };
 		4193C3352262C8C4000850EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4193C3412262CA77000850EE /* StringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConvertible.swift; sourceTree = "<group>"; };
 		4193C3442262CBF7000850EE /* String+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Int.swift"; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 		4193C3322262C8C4000850EE /* SwiftConvertibleTests */ = {
 			isa = PBXGroup;
 			children = (
-				4193C3332262C8C4000850EE /* SwiftConvertibleTests.swift */,
 				41D789CB22642200008243B1 /* XCTest+Ext.swift */,
 				4193C3402262C9C9000850EE /* Convertibles */,
 				4193C3352262C8C4000850EE /* Info.plist */,
@@ -370,7 +367,6 @@
 				4193C34C2262D5AA000850EE /* String+UInt16.swift in Sources */,
 				4193C3522262D861000850EE /* String+Int8.swift in Sources */,
 				4193C3502262D605000850EE /* String+Uint64.swift in Sources */,
-				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
 				41D789D822643C22008243B1 /* URL+String.swift in Sources */,
 				41D789DA22644EBC008243B1 /* String+URL.swift in Sources */,
 				4193C3542262D86A000850EE /* String+Int16.swift in Sources */,
@@ -537,6 +533,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftConvertible/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,6 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftConvertible/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
