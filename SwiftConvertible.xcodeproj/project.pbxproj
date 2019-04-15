@@ -30,6 +30,8 @@
 		41D789CA22641FA2008243B1 /* Int+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789C922641FA2008243B1 /* Int+String.swift */; };
 		41D789CC22642200008243B1 /* XCTest+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789CB22642200008243B1 /* XCTest+Ext.swift */; };
 		41D789CE226427A2008243B1 /* Int+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789CD226427A2008243B1 /* Int+Bool.swift */; };
+		41D789D022642883008243B1 /* BoolConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789CF22642883008243B1 /* BoolConvertible.swift */; };
+		41D789D3226429BF008243B1 /* Bool+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D789D2226429BF008243B1 /* Bool+Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		41D789C922641FA2008243B1 /* Int+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+String.swift"; sourceTree = "<group>"; };
 		41D789CB22642200008243B1 /* XCTest+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+Ext.swift"; sourceTree = "<group>"; };
 		41D789CD226427A2008243B1 /* Int+Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Bool.swift"; sourceTree = "<group>"; };
+		41D789CF22642883008243B1 /* BoolConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolConvertible.swift; sourceTree = "<group>"; };
+		41D789D2226429BF008243B1 /* Bool+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Int.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 				41D789C622641CB4008243B1 /* ConvertError.swift */,
 				4193C3412262CA77000850EE /* StringConvertible.swift */,
 				41D789C422641B5B008243B1 /* IntConvertible.swift */,
+				41D789CF22642883008243B1 /* BoolConvertible.swift */,
 			);
 			path = Convertibles;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			children = (
 				4193C3432262CB95000850EE /* StringConvertible */,
 				41D789C822641F8E008243B1 /* IntConvertible */,
+				41D789D1226429B0008243B1 /* BoolConvertible */,
 			);
 			path = Convertibles;
 			sourceTree = "<group>";
@@ -176,6 +182,14 @@
 				41D789CD226427A2008243B1 /* Int+Bool.swift */,
 			);
 			path = IntConvertible;
+			sourceTree = "<group>";
+		};
+		41D789D1226429B0008243B1 /* BoolConvertible */ = {
+			isa = PBXGroup;
+			children = (
+				41D789D2226429BF008243B1 /* Bool+Int.swift */,
+			);
+			path = BoolConvertible;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D789C722641CB4008243B1 /* ConvertError.swift in Sources */,
+				41D789D022642883008243B1 /* BoolConvertible.swift in Sources */,
 				4193C3422262CA77000850EE /* StringConvertible.swift in Sources */,
 				41D789C522641B5B008243B1 /* IntConvertible.swift in Sources */,
 			);
@@ -324,6 +339,7 @@
 				4193C3502262D605000850EE /* String+Uint64.swift in Sources */,
 				4193C3342262C8C4000850EE /* SwiftConvertibleTests.swift in Sources */,
 				4193C3542262D86A000850EE /* String+Int16.swift in Sources */,
+				41D789D3226429BF008243B1 /* Bool+Int.swift in Sources */,
 				4193C35A2262D9D2000850EE /* String+Float.swift in Sources */,
 				4193C3562262D875000850EE /* String+Int32.swift in Sources */,
 				4193C3452262CBF7000850EE /* String+Int.swift in Sources */,
