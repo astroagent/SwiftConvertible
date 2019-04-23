@@ -8,20 +8,26 @@
 
 import Foundation
 
-protocol CGFloatConvertible {
+public protocol CGFloatConvertible {
     func toCGFloat() throws -> CGFloat
 }
 
-extension CGFloatConvertible {
+public extension CGFloatConvertible {
     func asCGFloat() -> CGFloat? {
         return try? self.toCGFloat()
     }
 }
 
 extension CGFloat: CGFloatConvertible {
-    func toCGFloat() -> CGFloat {
+    public func toCGFloat() -> CGFloat {
         return self
     }
 }
 
 // MARK: Converting
+
+extension Float: CGFloatConvertible {
+    public func toCGFloat() -> CGFloat {
+        return CGFloat(self)
+    }
+}
