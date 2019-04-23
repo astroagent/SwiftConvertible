@@ -44,6 +44,7 @@
 		41D9A162226ECAD3004EA59A /* CGFloat+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A161226ECAD3004EA59A /* CGFloat+CGFloat.swift */; };
 		41D9A164226ECE7C004EA59A /* CGFloat+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A163226ECE7C004EA59A /* CGFloat+Float.swift */; };
 		41D9A166226ED5A6004EA59A /* CGFloat+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A165226ED5A6004EA59A /* CGFloat+Int.swift */; };
+		41D9A168226ED87B004EA59A /* NSNumberRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A167226ED87B004EA59A /* NSNumberRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		41D9A161226ECAD3004EA59A /* CGFloat+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+CGFloat.swift"; sourceTree = "<group>"; };
 		41D9A163226ECE7C004EA59A /* CGFloat+Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Float.swift"; sourceTree = "<group>"; };
 		41D9A165226ED5A6004EA59A /* CGFloat+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Int.swift"; sourceTree = "<group>"; };
+		41D9A167226ED87B004EA59A /* NSNumberRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNumberRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				4193C3282262C8C4000850EE /* SwiftConvertible.h */,
+				41D9A167226ED87B004EA59A /* NSNumberRepresentable.swift */,
 				4193C33F2262C9C0000850EE /* Convertibles */,
 				4193C3292262C8C4000850EE /* Info.plist */,
 			);
@@ -395,6 +398,7 @@
 				41D789C722641CB4008243B1 /* ConvertError.swift in Sources */,
 				41D789DC226455E7008243B1 /* DateConvertible.swift in Sources */,
 				41D789D022642883008243B1 /* BoolConvertible.swift in Sources */,
+				41D9A168226ED87B004EA59A /* NSNumberRepresentable.swift in Sources */,
 				41D9A156226EAD6E004EA59A /* FloatConvertible.swift in Sources */,
 				4193C3422262CA77000850EE /* StringConvertible.swift in Sources */,
 				41D789C522641B5B008243B1 /* IntConvertible.swift in Sources */,
