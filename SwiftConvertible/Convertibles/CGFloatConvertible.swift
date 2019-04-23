@@ -26,14 +26,10 @@ extension CGFloat: CGFloatConvertible {
 
 // MARK: Converting
 
-extension Float: CGFloatConvertible {
+extension NSNumberRepresentable where Self: CGFloatConvertible {
     public func toCGFloat() -> CGFloat {
-        return CGFloat(self)
+        return CGFloat(truncating: self.nsNumber)
     }
 }
-
-extension Int: CGFloatConvertible {
-    public func toCGFloat() -> CGFloat {
-        return CGFloat(self)
-    }
-}
+extension Int: CGFloatConvertible {}
+extension Float: CGFloatConvertible {}
