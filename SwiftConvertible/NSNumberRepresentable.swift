@@ -15,6 +15,39 @@ public protocol NSNumberRepresentable {
 extension Int: NSNumberRepresentable {
     public var nsNumber: NSNumber { return self as NSNumber }
 }
+extension Int8: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension Int16: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension Int32: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension Int64: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension UInt: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension UInt8: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension UInt16: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension UInt32: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension UInt64: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
 extension Float: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension Double: NSNumberRepresentable {
+    public var nsNumber: NSNumber { return self as NSNumber }
+}
+extension CGFloat: NSNumberRepresentable {
     public var nsNumber: NSNumber { return self as NSNumber }
 }
