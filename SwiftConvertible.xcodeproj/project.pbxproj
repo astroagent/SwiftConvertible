@@ -39,6 +39,7 @@
 		41D9A156226EAD6E004EA59A /* FloatConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A155226EAD6E004EA59A /* FloatConvertible.swift */; };
 		41D9A159226EADFF004EA59A /* Float+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A158226EADFF004EA59A /* Float+Float.swift */; };
 		41D9A15B226EAF31004EA59A /* Float+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A15A226EAF31004EA59A /* Float+Int.swift */; };
+		41D9A15D226EB33B004EA59A /* Float+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9A15C226EB33B004EA59A /* Float+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		41D9A155226EAD6E004EA59A /* FloatConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatConvertible.swift; sourceTree = "<group>"; };
 		41D9A158226EADFF004EA59A /* Float+Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Float.swift"; sourceTree = "<group>"; };
 		41D9A15A226EAF31004EA59A /* Float+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Int.swift"; sourceTree = "<group>"; };
+		41D9A15C226EB33B004EA59A /* Float+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			children = (
 				41D9A158226EADFF004EA59A /* Float+Float.swift */,
 				41D9A15A226EAF31004EA59A /* Float+Int.swift */,
+				41D9A15C226EB33B004EA59A /* Float+String.swift */,
 			);
 			path = FloatConvertible;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				41D9A15B226EAF31004EA59A /* Float+Int.swift in Sources */,
 				41D789CA22641FA2008243B1 /* Int+String.swift in Sources */,
 				41D789CE226427A2008243B1 /* Int+Bool.swift in Sources */,
+				41D9A15D226EB33B004EA59A /* Float+String.swift in Sources */,
 				4193C3582262D88B000850EE /* String+Int64.swift in Sources */,
 				41D9A159226EADFF004EA59A /* Float+Float.swift in Sources */,
 				4193C34E2262D5E2000850EE /* String+UInt32.swift in Sources */,

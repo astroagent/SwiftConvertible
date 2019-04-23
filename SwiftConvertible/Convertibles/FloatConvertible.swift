@@ -28,9 +28,17 @@ extension Float: FloatConvertible {
 // MARK: - Converting
 
 extension Int: FloatConvertible {
-
     public func toFloat() -> Float {
         return Float(self)
     }
-
 }
+
+extension StringProtocol where Self: FloatConvertible {
+    public func toFloat() throws -> Float {
+        guard let float = Float.init(self) else {
+            throw ConvertError(origin: self)
+        }
+        return float
+    }
+}
+extension String: FloatConvertible {}
