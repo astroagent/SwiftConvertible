@@ -12,7 +12,7 @@ import XCTest
 class FloatFromFloat: XCTestCase {
 
     func testSelfConvertible() {
-        let float: Float = 1.0
+        let float: Float = .random(in: -99...99)
         XCTAssertEqual(float.toFloat(), float)
         XCTAssertNotNil(float.asFloat()) { asFloat in
             XCTAssertEqual(asFloat, float)

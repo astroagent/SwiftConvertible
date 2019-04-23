@@ -26,3 +26,11 @@ extension Float: FloatConvertible {
 
 
 // MARK: - Converting
+
+extension Int: FloatConvertible {
+
+    public func toFloat() -> Float {
+        return Float(self)
+    }
+
+}
