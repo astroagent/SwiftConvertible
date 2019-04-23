@@ -27,11 +27,12 @@ extension Float: FloatConvertible {
 
 // MARK: - Converting
 
-extension Int: FloatConvertible {
+extension NSNumberRepresentable where Self: FloatConvertible {
     public func toFloat() -> Float {
-        return Float(self)
+        return Float(truncating: self.nsNumber)
     }
 }
+extension Int: FloatConvertible {}
 
 extension StringProtocol where Self: FloatConvertible {
     public func toFloat() throws -> Float {
