@@ -31,3 +31,9 @@ extension Float: CGFloatConvertible {
         return CGFloat(self)
     }
 }
+
+extension Int: CGFloatConvertible {
+    public func toCGFloat() -> CGFloat {
+        return CGFloat(self)
+    }
+}
